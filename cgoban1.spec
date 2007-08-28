@@ -78,7 +78,6 @@ Icon=cgoban1.png
 Terminal=false
 Type=Application
 Categories=GTK;X-MandrivaLinux-MoreApplications-Games-Boards;Game;BoardGame;
-Encoding=UTF-8
 EOF
 
 %clean
