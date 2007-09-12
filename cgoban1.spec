@@ -74,7 +74,7 @@ cat > %{buildroot}%{_datadir}/applications/mandriva-%{name}.desktop << EOF
 Name=CGoban
 Comment="Graphical game of Go
 Exec=%{_bindir}/%{name}
-Icon=cgoban1.png
+Icon=cgoban1
 Terminal=false
 Type=Application
 Categories=GTK;X-MandrivaLinux-MoreApplications-Games-Boards;Game;BoardGame;
