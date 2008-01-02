@@ -14,6 +14,7 @@ Source:	http://ovh.dl.sourceforge.net/sourceforge/cgoban1/%rname-%version.tar.bz
 Source2: %name-mini.png
 Source3: %name.png
 URL: http://cgoban1.sourceforge.net/
+BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  X11-devel
 BuildRequires:	autoconf
 Provides: %rname = %{version}
