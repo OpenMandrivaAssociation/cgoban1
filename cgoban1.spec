@@ -1,6 +1,6 @@
 %define name cgoban1
 %define version 1.9.14
-%define release %mkrel 8
+%define release %mkrel 9
 %define rname cgoban
 
 Summary: A Go game client
@@ -27,9 +27,9 @@ Cgoban is also a smart interface for GNU Go.
 
 %description -l fr
 Cgoban (Complete Goban) est un programme pour X11. Il peut servir de goban
-virtuel, à afficher ou éditer des fichiers smart-go et à se connecter à
+virtuel, Ã  afficher ou Ã©diter des fichiers smart-go et Ã  se connecter Ã 
 des serveurs de go par Internet.
-CGoban peut aussi servir d'interface à GNU Go.
+CGoban peut aussi servir d'interface Ã  GNU Go.
 
 %prep
 rm -rf $RPM_BUILD_ROOT
