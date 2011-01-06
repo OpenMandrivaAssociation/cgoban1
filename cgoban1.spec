@@ -15,8 +15,7 @@ Source2: %name-mini.png
 Source3: %name.png
 URL: http://cgoban1.sourceforge.net/
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildRequires:  X11-devel
-BuildRequires:	autoconf
+BuildRequires:  libx11-devel
 Provides: %rname = %{version}
 
 %description
@@ -32,8 +31,6 @@ des serveurs de go par Internet.
 CGoban peut aussi servir d'interface à GNU Go.
 
 %prep
-rm -rf $RPM_BUILD_ROOT
-
 %setup -q -n %rname-%version
 
 %build
