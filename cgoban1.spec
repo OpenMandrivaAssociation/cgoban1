@@ -1,6 +1,6 @@
 %define name cgoban1
 %define version 1.9.14
-%define release %mkrel 13
+%define release %mkrel 14
 %define rname cgoban
 
 Summary: A Go game client
