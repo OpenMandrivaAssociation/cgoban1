@@ -24,12 +24,6 @@ to be a computerized go board, view and edit smart-go files, and connect to
 go servers on the Internet.
 Cgoban is also a smart interface for GNU Go.
 
-%description -l fr
-Cgoban (Complete Goban) est un programme pour X11. Il peut servir de goban
-virtuel, à afficher ou éditer des fichiers smart-go et à se connecter à
-des serveurs de go par Internet.
-CGoban peut aussi servir d'interface à GNU Go.
-
 %prep
 %setup -q -n %rname-%version
 
