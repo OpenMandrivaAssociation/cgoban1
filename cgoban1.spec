@@ -80,3 +80,64 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/applications/*.desktop
 %{_iconsdir}/cgoban1.png
 %{_iconsdir}/*/cgoban1.png
+
+
+%changelog
+* Wed Feb 02 2011 Funda Wang <fwang@mandriva.org> 1.9.14-14mdv2011.0
++ Revision: 635081
+- drop fr translation
+- rebuild
+- tighten BR
+
+* Thu Dec 09 2010 Oden Eriksson <oeriksson@mandriva.com> 1.9.14-13mdv2011.0
++ Revision: 616994
+- the mass rebuild of 2010.0 packages
+
+* Wed Sep 02 2009 Thierry Vignaud <tv@mandriva.org> 1.9.14-12mdv2010.0
++ Revision: 424797
+- rebuild
+
+* Wed Jul 23 2008 Thierry Vignaud <tv@mandriva.org> 1.9.14-11mdv2009.0
++ Revision: 243479
+- rebuild
+
+  + Pixel <pixel@mandriva.com>
+    - rpm filetriggers deprecates update_menus/update_scrollkeeper/update_mime_database/update_icon_cache/update_desktop_database/post_install_gconf_schemas
+
+* Tue Mar 25 2008 Pascal Terjan <pterjan@mandriva.org> 1.9.14-9mdv2008.1
++ Revision: 189892
+- Convert the description into UTF-8
+
+  + Olivier Blin <oblin@mandriva.com>
+    - restore BuildRoot
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill re-definition of %%buildroot on Pixel's request
+
+* Sun Dec 02 2007 Funda Wang <fwang@mandriva.org> 1.9.14-8mdv2008.1
++ Revision: 114364
+- rebuild for new era
+
+  + Thierry Vignaud <tv@mandriva.org>
+    - kill hardcoded icon extension
+    - kill desktop-file-validate's 'warning: key "Encoding" in group "Desktop Entry" is deprecated'
+
+
+* Tue Jan 09 2007 Pascal Terjan <pterjan@mandriva.org> 1.9.14-7mdv2007.0
++ Revision: 106212
+- Use autoconf 2.5
+- XDG menu
+- Import cgoban1
+
+* Wed May 10 2006 Pascal Terjan <pterjan@mandriva.org> 1.9.14-6mdk
+- mkrel
+
+* Tue Mar 15 2005 Pascal Terjan <pterjan@mandrake.org> 1.9.14-5mdk
+- rebuild to get the right menu section
+
+* Sat May 15 2004 Pascal Terjan <pterjan@mandrake.org> 1.9.14-4mdk
+- Rebuild
+- use macros
+- use cgoban1 for menu and icon
+- add normal and mini icon
+
