@@ -1,6 +1,6 @@
 %define name cgoban1
 %define version 1.9.14
-%define release %mkrel 14
+%define release  15
 %define rname cgoban
 
 Summary: A Go game client
@@ -14,7 +14,6 @@ Source:	http://ovh.dl.sourceforge.net/sourceforge/cgoban1/%rname-%version.tar.bz
 Source2: %name-mini.png
 Source3: %name.png
 URL: http://cgoban1.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:  pkgconfig(x11)
 Provides: %rname = %{version}
 
