@@ -14,6 +14,11 @@ Source:	http://ovh.dl.sourceforge.net/sourceforge/cgoban1/%rname-%version.tar.bz
 Source2: %name-mini.png
 Source3: %name.png
 URL: https://cgoban1.sourceforge.net/
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:  pkgconfig(x11)
 Provides: %rname = %{version}
 
